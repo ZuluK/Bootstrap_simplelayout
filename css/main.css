@@ -1,7 +1,11 @@
 body {
-    font: 20px "Montserrat", sans-serif;
+    font-size: : 20px
     line-height: 1.8;
-    color: #f5f6f7;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h3, p {
+  font-family: 'Open Sans Condensed', sans-serif;
+
 }
 
 .navbar {
@@ -24,7 +28,7 @@ body {
 }
 
 .bg-1 {
-  background-color: #1abc9c;
+  background-color: lightblue;
   color: #ffffff;
 }
 
@@ -32,10 +36,12 @@ body {
   background-color: #474e5d;
   color: #ffffff;
 }
+.bg-2 p {
+  padding-bottom: 45px;
+}
 
 .bg-3 {
   background-color: #ffffff;
-  color: #555555;
 }
 .bg-4 {
   background-color: #2f2f2f;
